@@ -1,0 +1,126 @@
+@media (max-width: 1400px) {
+  .cotainer {
+    width: 90%;
+  }
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 1024px) {
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .hero-text h1 span {
+    font-size: 29px;
+  }
+
+  .hero-text p {
+    font-size: 19px;
+  }
+
+  .hero-text img {
+    font-size: 18px;
+  }
+  .hero-text button {
+    font-size: 18px;
+  }
+  .info img {
+    font-size: 15px;
+  }
+}
+@media (max-width: 992px) {
+  .header-text {
+    display: none;
+  }
+  .hero {
+    flex-direction: column;
+  }
+  .hero-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .products-card p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .products-card p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 576px) {
+  .hero img {
+    width: 90%;
+  }
+  .info img {
+    width: 90%;
+  }
+  .products {
+    flex-direction: column;
+  }
+  .products-card {
+    margin-bottom: 30px;
+  }
+  .contact {
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+  .condact-left {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 451px) {
+  .info-title p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 400px) {
+  .footer h1 {
+    font-size: 17px;
+  }
+}
+@media (max-width: 376px) {
+  .footer h1 {
+    font-size: 15px;
+  }
+  .header img {
+    width: 50%;
+  }
+}
+@media (max-width: 320px) {
+  .hero-text button {
+    padding: 10px 27px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 22px;
+    background: #ee4248;
+    box-shadow: 21px 15px 11px 0px rgba(0, 0, 0, 0.25);
+  }
+  .products-card button {
+    padding: 7px 14px;
+    border-radius: 4px;
+    background: #ee4248;
+    box-shadow: 13px 11px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .footer h1 {
+    font-size: 13px;
+  }
+}
