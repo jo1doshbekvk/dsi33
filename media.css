@@ -131,4 +131,7 @@
   }.hero-text h1  {
     font-size: 24px;
 }
+#hero {
+  padding: 9px 0;
+}
 }
