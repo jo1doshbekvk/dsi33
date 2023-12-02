@@ -121,6 +121,9 @@
     font-weight: 400;
   }
   .footer h1 {
-    font-size: 13px;
+    font-size: 12px;
+  }
+  .info-title p {
+    font-size: 9px;
   }
 }
